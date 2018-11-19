@@ -8,7 +8,7 @@ message='あたり！';
 message='残念！もっと大きいです';
 }else if(number<answer){
 message='残念！もっと小さいです';
-}else{
+}else if(answer<0&&answer>3){
 message='0～3の数字を入力してください';
 }
 

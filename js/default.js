@@ -12,4 +12,9 @@ message='残念！もっと大きいです';
 message='残念！もっと小さいです';
 }
 
+var result = window.confirm('準備OK？');
+
+if(result === true)
+{
 document.getElementById('choice').textContent=message;
+}
